@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tToolbar"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical">
+
+    <Spinner
+        android:id="@+id/menu_spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/menu_spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginTop="10dp"/>
+</android.support.v7.widget.Toolbar>
